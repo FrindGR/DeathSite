@@ -1,0 +1,61 @@
+﻿@page
+@model DeathGround.Pages.BlogsModel
+@{
+    ViewData["Title"] = "Blogs";
+}
+
+<div class="header">
+    <div class="title">
+        <img src="/img/png25.png" class="header-logo"/>
+        <a class="display" href="/">
+            <h1 class="stop-ground">StopGround</h1>
+        </a>
+    </div>
+</div>
+<div class="menu">
+    <a id="GamesST" class="display-menu" asp-area="" asp-page="/Index">Игры</a>
+    <a id="NewsST" class="display-menu" asp-area="" asp-page="/News">Новости</a>
+    <a id="BlogsST" class="display-menu" asp-area="" asp-page="/Blogs">Блоги</a>
+    <a id="StreamsST" class="display-menu" asp-area="" asp-page="/Streams">Стримы</a>
+    <a id="CheatsST" class="display-menu" asp-area="" asp-page="/Cheats">Читы</a>
+    <a id="ForumsST" class="display-menu" asp-area="" asp-page="/Forums">Форумы</a>
+</div>
+<div class="blogblock">
+    @*<div class="gamenewsblock">
+        <h1 class="blogtextheader">ЧИТАТЬ</h1>
+    </div>*@
+    <div class="blogfon">
+        <div class="bloglogo">
+            <img src="/img/blogs/atomblog.jpg" class="logoflex"/>
+        </div>
+        <div class="blogtext">
+            <h1 class="bloginfotexthead">Саундтрек из игры Atomic Heart</h1>
+            <div class="blogssilka">
+                <a class="display" href="/User">
+                    <p class="bloginfouser">Fr1ndGR</p>
+                </a>
+            </div>
+            <p class="bloginfodate">28 февраля</p>
+        </div>
+    </div>
+    <div class="blogfon">
+        <div class="bloglogo">
+            <img src="/img/blogs/cyberpunkblog.jpg" class="logoflex"/>
+        </div>
+        <div class="blogtext">
+            <h1 class="bloginfotexthead">Сюжет, Доп. квесты, разбор Cyberpunk 2077</h1>
+            <p class="bloginfouser">Bubelbosh59</p>
+            <p class="bloginfodate">27 февраля</p>
+        </div>
+    </div>
+    <div class="blogfon">
+        <div class="bloglogo">
+            <img src="/img/blogs/arasakablog.jpg" class="logoflex"/>
+        </div>
+        <div class="blogtext">
+            <h1 class="bloginfotexthead">Корпорации - это зло?</h1>
+            <p class="bloginfouser">Xeval</p>
+            <p class="bloginfodate">26 февраля</p>
+        </div>
+    </div>
+</div>

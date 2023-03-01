@@ -1,0 +1,405 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.header {
+    outline: none;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 70px;
+}
+
+.menu {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.stop-ground {
+    font-weight: bold;
+}
+
+.header-logo {
+    width: 400px;
+    height: 60px;
+}
+
+.block2 {
+    width: 1280px;
+    background-color: lightgray;
+}
+
+.textblock {
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: -25px
+}
+
+.textblock2 {
+    margin-bottom: -8px;
+    margin-left: 460px;
+}
+
+.games30 {
+    margin-top: 20px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.display {
+    outline: none;
+    color: black;
+    text-decoration: none;
+    width: 75px;
+    height: 30px;
+}
+
+.display-games {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+.games30 img {
+    position: absolute;
+    border-radius: 20px;
+}
+
+.games30 h1 {
+    color: white;
+    margin-left: 15px;
+    position: relative;
+}
+
+.games30 p {
+    color: white;
+    margin-left: 15px;
+    position: relative;
+}
+
+.games30 p2 {
+    margin-top: 450px;
+    font-size: 1.7em;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+}
+
+.display-games2 {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+}
+
+.futuregames { /*2 серых блока на главной странице*/
+    background-color: lightgray;
+    width: 1280px;
+    height: 350px;
+    display: flex;
+}
+
+.intheviewer {
+    background-color: dimgray;
+    width: 1280px;
+    height: 350px;
+}
+
+.futgamesdisplay {
+    margin-top: 20px;
+    margin-left: 75px;
+    border-radius: 25px;
+}
+
+.showlogodesc { /*общий профиль каждой игры (на главной странице)*/
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+.showlogo { /*картинки игр (на главной странице)*/
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.bloglogo { /*картинки блога*/
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.logoflex { /* танщующая картинка */
+    transition: transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    overflow: hidden;
+}
+
+.logoflex:hover { /* танщующая картинка */
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.futgamedisplaydesc { /*описание 1-й игры на главной странице*/
+    position: absolute;
+    font-size: 1.6em;
+    margin-left: 30px;
+    color: black;
+}
+
+.futgamedisplaydesc2 { /*описание 2-й игры на главной странице*/
+    position: absolute;
+    font-size: 1.6em;
+    margin-left: 25px;
+    color: black;
+}
+
+.futgamedisplaydesc3 { /*описание 3-й игры на главной странице*/
+    position: absolute;
+    font-size: 1.6em;
+    color: black;
+}
+
+.futgamedisplaydesc4 { /*описание 4-й игры на главной странице*/
+    position: absolute;
+    font-size: 1.6em;
+    margin-left: 60px;
+    color: black;
+}
+
+.futgamedesc { /*описание 5-й игры на главной странице*/
+    position: absolute;
+    font-size: 1.6em;
+    margin-left: 32px;
+    color: black;
+}
+
+.futgamedesc2 { /*описание 6-й игры на главной странице*/
+    position: absolute;
+    margin-left: 12px;
+    font-size: 1.6em;
+    color: black;
+}
+
+.futgamedesc3 { /*описание 7-й игры на главной странице*/
+    position: absolute;
+    margin-left: 45px;
+    font-size: 1.6em;
+    color: black;
+}
+
+.futgamedesc4 { /*описание 8-й игры на главной странице*/
+    position: absolute;
+    margin-left: 35px;
+    font-size: 1.6em;
+    color: black;
+}
+
+.display-games3 {
+    margin-top: 40px;
+    margin-left: 18px;
+    font-size: 1.7em;
+}
+
+.intheviewerdesc {
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+}
+
+.display-menu {
+    margin: 15px;
+    font-size: 1.5em;
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
+
+.newsblock {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 1280px;
+    height: 1050px;
+}
+
+.sectionnews {
+    width: 200px;
+    height: 300px;
+}
+
+.newslogoblock {
+    overflow: hidden;
+    border-radius: 25px;
+    width: 270px;
+    height: 150px;
+}
+
+.textnews {
+    font-size: 1.4em;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 700px;
+    height: 30px;
+}
+
+.textnewstoday {
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.gamenewsblock {
+    background-color: black;
+    border-radius: 25px;
+}
+
+.gamenews {
+    font-size: 2.5em;
+    color: white;
+    margin-left: 450px;
+}
+
+.fonnews {
+    padding: 25px;
+    display: flex;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+.blogblock {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 1280px;
+    height: 1050px;
+}
+
+.blogfon {
+    padding: 25px;
+    margin-left: 70px;
+    display: flex;
+    overflow: hidden;
+}
+
+.bloglogo {
+    overflow: hidden;
+    border-radius: 25px;
+    width: 452px;
+    height: 252px;
+}
+
+.bloginfouser {
+    font-size: 1.1em;
+    margin-left: 15px;
+    width: 75px;
+}
+
+.bloginfodate {
+    font-size: 0.9em;
+    margin-left: 15px;
+    margin-top: 150px;
+    width: 100px;
+}
+
+.bloginfotexthead {
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.blogtext {
+    width: 550px;
+    height: 250px;
+}
+
+.blogssilka {
+    display: flex;
+    position: absolute;
+}
+
+.userblock {
+    background-color: lightgray;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 1280px;
+    height: 1050px;
+}
+
+.fonuserblock {
+    height: 200px;
+    width: 1280px;
+}
+
+.fonuser {
+    margin-bottom: -55px;
+    width: 1280px;
+    height: 198px;
+    border-radius: 25px;
+}
+
+.fotouser {
+    width: 181px;
+    height: 181px;
+    border-radius: 100px;
+}
+
+.blockfotouser {
+    display: flex;
+    position: relative;
+    margin-left: 25px;
+}
+
+.blockfotouser2 {
+    margin-left: 25px;
+    overflow: hidden;
+}
+
+.nickname {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 55px;
+}
+
+.lastonline {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.galocka {
+    display: flex;
+    margin-top: 64px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.galochkaright {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    margin-top: 10px;
+    width: 10%;
+    height: 25%;
+    position: relative;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+}
